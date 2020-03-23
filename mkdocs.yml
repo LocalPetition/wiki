@@ -1,0 +1,26 @@
+site_name: 'LocalPetition'
+site_url: https://wiki.localpetition.org
+site_author: 'LocalPetition'
+repo_name: '/LocalPetition/wiki'
+repo_url: https://github.com/LocalPetition/wiki
+edit_uri: edit/master/wiki/
+docs_dir: wiki
+
+
+theme:
+  name: null
+  custom_dir: material
+  language: en
+  palette:
+    primary: Light Green
+    accent: Light Green
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo:
+    icon: "\uE80C"
+  feature:
+    tabs: true
+
+nav:
+    - Welcome: 'index.md'
